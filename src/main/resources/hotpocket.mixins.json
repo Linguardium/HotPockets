@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "mod.linguardium.hotpocket.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "FluidBreakMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

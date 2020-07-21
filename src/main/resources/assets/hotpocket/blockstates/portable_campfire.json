@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "hotpocket:block/minicampfire",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "hotpocket:block/minicampfire",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "hotpocket:block/minicampfire"
+    },
+    "facing=west": {
+      "model": "hotpocket:block/minicampfire",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "hotpocket:item/furnace_stick",
+  "textures": {
+    "layer0": "hotpocket:item/basic_furnace_on"
+  }
+}

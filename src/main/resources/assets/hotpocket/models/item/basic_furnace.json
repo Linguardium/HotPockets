@@ -1,0 +1,13 @@
+{
+  "parent": "hotpocket:item/furnace_stick",
+  "textures": {
+    "layer0": "hotpocket:item/basic_furnace"
+  },
+  "overrides": [
+    { "predicate": {
+      "custom_model_data": 1
+    },
+    "model": "hotpocket:item/basic_furnace_on"
+    }
+  ]
+}

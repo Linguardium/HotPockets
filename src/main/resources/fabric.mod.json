@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "hotpocket",
+  "version": "${version}",
+  "name": "HotPocket",
+  "description": "Adds pocket sized furnaces",
+  "authors": [
+    "Linguardium"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/hotpocket/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mod.linguardium.hotpocket.Main"
+    ],
+    "client": ["mod.linguardium.hotpocket.MainClient"],
+    "server": []
+  },
+  "mixins": [
+    "hotpocket.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.8",
+    "fabric": "*"
+  }
+}
